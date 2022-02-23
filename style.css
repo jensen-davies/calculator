@@ -1,0 +1,81 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: rgb(8, 27, 51);
+}
+
+section {
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    align-items:flex-end;
+  }
+
+  section > div {
+    box-sizing: border-box;
+    width: 400px;
+    border-radius: 8px;
+    background-color: rgb(169, 192, 221);
+    padding: 12px;
+  }
+
+
+    #display {
+      padding-right: 12px;
+      align-items: center;
+      background-color: rgba(29, 61, 82, 0.986);
+      height: 80px;
+      max-width: 370px;
+      border-radius: 4px;
+      font-size: 48px;
+      color: white;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    #numpad{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 12px;
+    }
+      .row {
+        display: flex;
+        
+      }
+
+      
+
+      button {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+        border-radius: 8px;
+        background-color: turquoise;
+      }
+
+      .number {
+        background-color: yellowgreen;
+      }
+
+      .operation {
+        background-color: tomato;
+      }
+
+      #equals {
+        color: white;
+        background-color: black;
+      }
